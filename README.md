@@ -53,7 +53,6 @@ let tokenCreateTx = await new TokenCreateTransaction()
   .setSupplyType(TokenSupplyType.Infinite)
   .setSupplyKey(supplyKey)
   .freezeWith(client);
-// Signature, soumission et récupération de l’ID du token
 ```
 
 ## Liens utiles 🔗
